@@ -21,14 +21,18 @@ String s="Language";
 			for(int i=0;i<s.length();i++) {
 				if(ch==s.charAt(i)) {
 					count++;
+				
 				}
+			
 			}
-			if(count>1) {
+			if(count==1) { //print unique character in given string
+			
+			//System.out.println(ch);//remove duplicate Character in given String
 			System.out.println(ch+"  "+count);
 		}
 	}
 
 
 	}
-
 }
+
